@@ -2,6 +2,8 @@
 
 
 --------------INTRODUCTION ----------------------------------------------------------------
+
+
 In the dynamic world of automobile sales, predicting the right price of a used car is both a 
 business necessity and a data-driven challenge. This project aims to forecast car prices using a 
 Linear Regression model based on various real-world attributes such as brand, year of 
@@ -11,6 +13,8 @@ your learning portfolio and preparing you for real-world data science roles.
 
 
 --------------DATASET OVERVIEW-------------------------------------------------------------
+
+
 • Total entries: 4,340 
 • Features included: 
 o Car Brand & Model (processed to extract brand) 
@@ -27,6 +31,8 @@ o Selling Price (Target Variable)
 
 
 ----------------EXPLORATORY DATA ANALYSIS (EDA)---------------------------------------------
+
+
 Key insights from visual analysis: 
 • Price Distribution: Selling prices are right-skewed, with most cars priced under 
 ₹1,000,000. 
@@ -42,6 +48,8 @@ Visuals used:
 
 
 --------------------MODEL DEVELOPEMENT ---------------------------------------------------
+
+
 • Model Used: Linear Regression 
 • Preprocessing Steps: 
 o Label Encoding for categorical variables: fuel, seller_type, transmission, owner, 
@@ -51,6 +59,8 @@ o Feature scaling using StandardScaler
 
  
 -------------------------- MODEL EVALUATION -------------------------------------------------
+
+
 Metric 
 Mean Absolute Error (MAE) 
 Value 
@@ -64,6 +74,8 @@ R² Score (Goodness of Fit)
 
  
 -----------------------------------  CONCLUSION  --------------------------------------------
+
+
 The linear regression model provides moderate accuracy in predicting car prices. While it 
 performs well in recognizing general trends, it may miss out on complex non-linear 
 relationships.
